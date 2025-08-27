@@ -6,7 +6,7 @@ void reverseInitials(String vorname, String nachname) {
 }
 
 void main() {
-  reverseInitials("Johnny", "Depp");     // D. I.
-  reverseInitials("Tom", "Cruise");      // A. O.
-  reverseInitials("Farhad", "Ahmadi");   // O. A.
+  reverseInitials("Johnny", "Depp");     // Y. P.
+  reverseInitials("Tom", "Cruise");      // M. E.
+  reverseInitials("Farhad", "Ahmadi");   // D. I.
 }
