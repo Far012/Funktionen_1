@@ -1,8 +1,8 @@
-void reverseInitials(String vorname, String nachname) {
-  String letzterVornameBuchstabe = vorname[vorname.length - 1].toUpperCase();
-  String letzterNachnameBuchstabe = nachname[nachname.length - 1].toUpperCase();
+void reverseInitials(String firstName, String lastName) {
+  String lastFirstNameLetter = firstName[firstName.length - 1].toUpperCase();
+  String lastLastNameLetter = lastName[lastName.length - 1].toUpperCase();
 
-  print("$letzterVornameBuchstabe. $letzterNachnameBuchstabe.");
+  print("$lastFirstNameLetter. $lastLastNameLetter.");
 }
 
 void main() {
